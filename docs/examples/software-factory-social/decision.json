@@ -1,7 +1,7 @@
 {
   "version": "videoops-review-decision/v1",
   "id": "technical-1",
-  "candidate_sha256": "ef4b500924681c1250665f4b3a89c0018eb01476d2576c57f73b1c2d628309f8",
+  "candidate_sha256": "56f47b0ac82cbf705b05b88d192d2e698cfb8c767445e0e75bab8e5c0a118876",
   "technical": "PASS",
   "perceptual": "REVIEW_INCOMPLETE",
   "reviewer": {
@@ -17,5 +17,5 @@
     "planning/video-critic.json"
   ],
   "defects": [],
-  "reviewed_at": "2026-11-13T04:59:22.738Z"
+  "reviewed_at": "2026-11-13T05:06:48.884Z"
 }

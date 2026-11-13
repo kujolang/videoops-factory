@@ -1,13 +1,13 @@
-{"at":"2026-11-13T04:56:02.395Z","role":"producer","status":"started","message":"PLANNING"}
-{"at":"2026-11-13T04:56:10.445Z","role":"producer","status":"completed","message":"producer completed in 8.1s"}
-{"at":"2026-11-13T04:56:10.447Z","role":"creative-director","status":"started","message":"PLANNING"}
-{"at":"2026-11-13T04:56:21.584Z","role":"creative-director","status":"completed","message":"creative-director completed in 11.1s"}
-{"at":"2026-11-13T04:56:21.602Z","role":"asset-scout","status":"started","message":"ASSETING"}
-{"at":"2026-11-13T04:56:34.357Z","role":"asset-scout","status":"completed","message":"asset-scout completed in 12.8s"}
-{"at":"2026-11-13T04:56:34.360Z","role":"media-generator","status":"started","message":"GENERATING"}
-{"at":"2026-11-13T04:56:34.366Z","role":"media-generator","status":"completed","message":"media-generator completed in 0.0s"}
-{"at":"2026-11-13T04:56:34.368Z","role":"hyperframes-editor","status":"started","message":"EDITING"}
-{"at":"2026-11-13T04:59:12.515Z","role":"hyperframes-editor","status":"completed","message":"hyperframes-editor completed in 158.1s"}
-{"at":"2026-11-13T04:59:13.882Z","role":"video-critic","status":"started","message":"REVIEWING"}
-{"at":"2026-11-13T04:59:23.572Z","role":"video-critic","status":"completed","message":"video-critic completed in 9.7s"}
-{"at":"2026-11-13T04:59:23.575Z","role":"producer","status":"pending","message":"Candidate rendered and technically verified. Full playback review is required before promotion."}
+{"at":"2026-11-13T05:05:02.346Z","role":"producer","status":"started","message":"PLANNING"}
+{"at":"2026-11-13T05:05:11.811Z","role":"producer","status":"completed","message":"producer completed in 9.5s"}
+{"at":"2026-11-13T05:05:11.812Z","role":"creative-director","status":"started","message":"PLANNING"}
+{"at":"2026-11-13T05:05:21.700Z","role":"creative-director","status":"completed","message":"creative-director completed in 9.9s"}
+{"at":"2026-11-13T05:05:21.742Z","role":"asset-scout","status":"started","message":"ASSETING"}
+{"at":"2026-11-13T05:05:30.952Z","role":"asset-scout","status":"completed","message":"asset-scout completed in 9.2s"}
+{"at":"2026-11-13T05:05:30.955Z","role":"media-generator","status":"started","message":"GENERATING"}
+{"at":"2026-11-13T05:05:30.958Z","role":"media-generator","status":"completed","message":"media-generator completed in 0.0s"}
+{"at":"2026-11-13T05:05:30.960Z","role":"hyperframes-editor","status":"started","message":"EDITING"}
+{"at":"2026-11-13T05:06:35.703Z","role":"hyperframes-editor","status":"completed","message":"hyperframes-editor completed in 64.7s"}
+{"at":"2026-11-13T05:06:37.313Z","role":"video-critic","status":"started","message":"REVIEWING"}
+{"at":"2026-11-13T05:06:49.779Z","role":"video-critic","status":"completed","message":"video-critic completed in 12.5s"}
+{"at":"2026-11-13T05:06:49.785Z","role":"producer","status":"pending","message":"Candidate rendered and technically verified. Full playback review is required before promotion."}

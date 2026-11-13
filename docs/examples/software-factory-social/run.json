@@ -1,58 +1,59 @@
 {
-  "id": "software-factory-social-2026-11-13T04-56-02-034Z",
+  "id": "software-factory-social-2026-11-13T05-05-01-969Z",
   "title": "Software Factory social cutdown",
   "status": "REVIEW_INCOMPLETE",
-  "startedAt": "2026-11-13T04:56:02.043Z",
-  "finishedAt": "2026-11-13T04:59:23.575Z",
-  "elapsedMs": 201533,
+  "startedAt": "2026-11-13T05:05:01.972Z",
+  "finishedAt": "2026-11-13T05:06:49.785Z",
+  "elapsedMs": 107813,
   "stages": [
     {
       "role": "producer",
       "status": "completed",
-      "startedAt": "2026-11-13T04:56:02.394Z",
-      "finishedAt": "2026-11-13T04:56:10.444Z",
-      "elapsedMs": 8050
+      "startedAt": "2026-11-13T05:05:02.346Z",
+      "finishedAt": "2026-11-13T05:05:11.810Z",
+      "elapsedMs": 9464
     },
     {
       "role": "creative-director",
       "status": "completed",
-      "startedAt": "2026-11-13T04:56:10.447Z",
-      "finishedAt": "2026-11-13T04:56:21.578Z",
-      "elapsedMs": 11131
+      "startedAt": "2026-11-13T05:05:11.812Z",
+      "finishedAt": "2026-11-13T05:05:21.699Z",
+      "elapsedMs": 9887
     },
     {
       "role": "asset-scout",
       "status": "completed",
-      "startedAt": "2026-11-13T04:56:21.602Z",
-      "finishedAt": "2026-11-13T04:56:34.355Z",
-      "elapsedMs": 12753
+      "startedAt": "2026-11-13T05:05:21.742Z",
+      "finishedAt": "2026-11-13T05:05:30.951Z",
+      "elapsedMs": 9209
     },
     {
       "role": "media-generator",
       "status": "completed",
-      "startedAt": "2026-11-13T04:56:34.360Z",
-      "finishedAt": "2026-11-13T04:56:34.365Z",
-      "elapsedMs": 5
+      "startedAt": "2026-11-13T05:05:30.955Z",
+      "finishedAt": "2026-11-13T05:05:30.957Z",
+      "elapsedMs": 2
     },
     {
       "role": "hyperframes-editor",
       "status": "completed",
-      "startedAt": "2026-11-13T04:56:34.368Z",
-      "finishedAt": "2026-11-13T04:59:12.514Z",
-      "elapsedMs": 158146
+      "startedAt": "2026-11-13T05:05:30.960Z",
+      "finishedAt": "2026-11-13T05:06:35.695Z",
+      "elapsedMs": 64735
     },
     {
       "role": "video-critic",
       "status": "completed",
-      "startedAt": "2026-11-13T04:59:13.882Z",
-      "finishedAt": "2026-11-13T04:59:23.569Z",
-      "elapsedMs": 9687
+      "startedAt": "2026-11-13T05:06:37.313Z",
+      "finishedAt": "2026-11-13T05:06:49.773Z",
+      "elapsedMs": 12460
     }
   ],
-  "candidateSha256": "ef4b500924681c1250665f4b3a89c0018eb01476d2576c57f73b1c2d628309f8",
+  "candidateSha256": "56f47b0ac82cbf705b05b88d192d2e698cfb8c767445e0e75bab8e5c0a118876",
   "durationSeconds": 12.0,
   "dimensions": [
     1080,
     1920
-  ]
+  ],
+  "revisionReason": "First portrait used wide screenshots that were too small. Registered portrait capture and full-card crop; same controller."
 }

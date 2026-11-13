@@ -12,9 +12,12 @@ Run measurements below include the actual model proposals, trusted rendering, te
 | --- | --- | --- |
 | Landscape launch | 2m 20.603s | 1920×1080, 12s |
 | Portrait first attempt | 3m 21.533s | 1080×1920, 12s; later superseded |
+| Portrait correction | 1m 47.813s | 1080×1920, 12s; registered portrait assets |
 
 Both first attempts passed layout, render, dimensions, frame-rate, full decode and silent-audio checks. Frame inspection then found that wide screenshots were too small in the portrait clip. The correction registers a real portrait browser capture and a lossless crop containing the full converter card, then reruns the same controller. The first attempt and its timing remain evidence; it is not silently replaced by a faster or cleaner result. Both retain REVIEW_INCOMPLETE for playback review. Renderer load and other work overlapped this single observation; these figures do not predict another machine’s speed.
 
 The source of truth is [benchmark.json](benchmark.json). Candidate hashes and per-stage durations are retained there. Editable projects and detailed provider/renderer logs stay in each ignored local run workspace. Public example files are review candidates, not approved releases.
 
 The showcase demo uses a separately authored edit of actual factory evidence and the two example outputs. It includes a Siren narration take, an original quiet bed and a Kujo bumper. Held application snapshots and shortened output excerpts make it an edited walkthrough, not an uninterrupted recording of a complete run. No timing is fabricated or spoken as a performance promise.
+
+The first showcase edit took 3m 17.310s to build and render. Its frame inspection exposed the portrait readability problem; that edit is retained locally as `demo-first-cut`, and a corrected showcase uses the new portrait candidate. This additional work is part of the session.

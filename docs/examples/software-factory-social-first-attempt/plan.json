@@ -1,0 +1,46 @@
+{
+  "title": "Software Factory social cutdown",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 12,
+  "cta": "Build your next factory with Kujo",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "duration": 2,
+      "headline": "Your idea. A tested app.",
+      "body": "A supported local software workflow.",
+      "assetId": "",
+      "theme": "ink"
+    },
+    {
+      "id": "factory-floor-proof",
+      "start": 2,
+      "duration": 4,
+      "headline": "",
+      "body": "",
+      "assetId": "factory-floor",
+      "theme": "ink"
+    },
+    {
+      "id": "converter-app-proof",
+      "start": 6,
+      "duration": 3,
+      "headline": "",
+      "body": "",
+      "assetId": "converter-app",
+      "theme": "ink"
+    },
+    {
+      "id": "kujo-bumper",
+      "start": 9,
+      "duration": 3,
+      "headline": "Kujo",
+      "body": "Build your next factory with Kujo\nkujolang.ai",
+      "assetId": "kujo-logo",
+      "theme": "paper"
+    }
+  ]
+}

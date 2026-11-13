@@ -21,7 +21,7 @@
       "duration": 4,
       "headline": "",
       "body": "",
-      "assetId": "factory-floor",
+      "assetId": "factory-floor-portrait",
       "theme": "ink"
     },
     {
@@ -30,8 +30,8 @@
       "duration": 3,
       "headline": "",
       "body": "",
-      "assetId": "converter-app",
-      "theme": "ink"
+      "assetId": "converter-app-portrait",
+      "theme": "paper"
     },
     {
       "id": "kujo-bumper",
