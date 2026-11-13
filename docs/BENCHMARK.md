@@ -4,7 +4,7 @@ This is an observed local build, not a speed comparison or a clean-machine bench
 
 The initial factory implementation, asset preparation, dependency setup and first checks took **11 minutes 17 seconds** before the first example started. Documentation, further tests and demo preparation continued while example jobs ran. That readiness interval does not claim the whole repository was finished in eleven minutes.
 
-The pinned dependency installer itself took **53.337 seconds** on its first run, including independent GitHub fetches and a fresh Python environment. Its unchanged repeat took **7.110 seconds**. These are part of setup, not extra phases to add to the total.
+The pinned dependency installer itself took **53.337 seconds** on its first run, including independent GitHub fetches and a fresh Python environment. Its unchanged repeat took **7.110 seconds**. These are part of setup, not extra phases to add to the total. The installer measurement excludes `npm ci`, installing system tools, and signing in. Production calls used the account default model through pinned Codex CLI 0.144.4; no explicit `VIDEOOPS_MODEL` was selected.
 
 Run measurements below include the actual model proposals, trusted rendering, technical checks and canonical review recording. They stop at REVIEW_INCOMPLETE. They do not include human playback approval or public publishing. The two examples run sequentially; other setup and documentation work overlaps them.
 
@@ -21,3 +21,7 @@ The source of truth is [benchmark.json](benchmark.json). Candidate hashes and pe
 The showcase demo uses a separately authored edit of actual factory evidence and the two example outputs. It includes a Siren narration take, an original quiet bed and a Kujo bumper. Held application snapshots and shortened output excerpts make it an edited walkthrough, not an uninterrupted recording of a complete run. No timing is fabricated or spoken as a performance promise.
 
 The first showcase edit took 3m 17.310s to build and render. Its frame inspection exposed the portrait readability problem; that edit is retained locally as `demo-first-cut`, and a corrected showcase uses the new portrait candidate. This additional work is part of the session.
+
+The corrected showcase build took **220.406 seconds**, including rendering and technical/audio checks. It is 40 seconds long. Full playback and listening approval remain pending.
+
+From the initial request timer to the corrected demo candidate: **28.94 minutes** (1736534ms). This includes discovery, implementation, overlapping work, the first attempts and the portrait correction. Final repository publishing and memory consolidation happened afterward.

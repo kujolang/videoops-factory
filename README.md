@@ -7,6 +7,10 @@
 
 Give your video team a brief. Follow the handoffs, inspect the renders, and see what still needs review.
 
+https://github.com/user-attachments/assets/5b113860-80ff-40de-98ca-92310d19f234
+
+The narrated walkthrough is a technically checked review candidate. [Source and review notes](docs/DEMO.md).
+
 VideoOps Factory turns a sourced campaign brief and registered assets into landscape or portrait video candidates. It runs the existing Kujo VideoOps role contracts, builds an editable HyperFrames project, records elapsed time, and shows the evidence in a local Factory Floor.
 
 **Standalone, local, early release.** This repository owns the VideoOps runner. [Software Factory](https://github.com/kujolang/software-factory) remains the separate factory for software contracts and tests. Neither repository is a universal engine for every kind of work; they share patterns and Kujo components.

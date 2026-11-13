@@ -25,3 +25,5 @@ node scripts/build-demo.mjs \
 ```
 
 The builder writes `.runtime/demo/`, including source hashes, an editable project, technical logs, audio measurements and the candidate. It refuses an existing output workspace so evidence is not overwritten. Preserve or move an old demo workspace before rebuilding.
+
+The held review snapshot shows the first portrait candidate and its recorded 3m 21s run, which remains pending. The portrait playback excerpt comes from the corrected candidate. The source manifest preserves both identities; neither image is a live elapsed-time claim.

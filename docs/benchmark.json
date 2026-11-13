@@ -20,8 +20,10 @@
     {
       "id": "demo",
       "startedAt": "2026-11-13T04:59:01.711Z",
-      "status": "assembling",
-      "note": "Narration and creative preparation overlapped setup/examples; this interval measures final assembly/render only."
+      "status": "candidate-ready-review-incomplete",
+      "note": "Narration and creative preparation overlapped setup/examples; this interval measures final assembly/render only.",
+      "finishedAt": "2026-11-13T05:11:05.534Z",
+      "elapsedMs": 723823
     }
   ],
   "note": "Wall-clock observations include discovery, implementation, dependencies and verification; warm machine, not a clean-machine or comparative performance benchmark.",
@@ -211,5 +213,14 @@
     "elapsedMs": 197310,
     "sha256": "b857456de14e9a32a64437fe6e608d5cec418290f3d7865c1d4f0fbb3561394e",
     "disposition": "superseded after portrait readability inspection"
-  }
+  },
+  "demoFinal": {
+    "startedAt": "2026-11-13T05:07:25.128Z",
+    "finishedAt": "2026-11-13T05:11:05.534Z",
+    "elapsedMs": 220406,
+    "sha256": "52590313ef9ac557c62fb4a9f9abf24aaa70ed5b8dbb69955ded716417f8a6f6",
+    "durationSeconds": 40,
+    "reviewStatus": "REVIEW_INCOMPLETE"
+  },
+  "startToCorrectedDemoReadyMs": 1736534
 }

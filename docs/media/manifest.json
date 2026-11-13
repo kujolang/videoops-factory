@@ -1,0 +1,72 @@
+{
+  "title": "Kujo VideoOps Factory demo",
+  "file": "videoops-factory-demo.mp4",
+  "sha256": "52590313ef9ac557c62fb4a9f9abf24aaa70ed5b8dbb69955ded716417f8a6f6",
+  "durationSeconds": 40,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "reviewStatus": "REVIEW_INCOMPLETE",
+  "technical": "PASS",
+  "playbackListening": "not_attested",
+  "sources": [
+    {
+      "id": "floor",
+      "path": "assets/floor.png",
+      "kind": "image",
+      "source": ".runtime/demo-recording/floor-final.png",
+      "sha256": "d9a7a0df6fe46d6e9920897ef44831a838aefa2f4763b04e8db346bdb4d73167"
+    },
+    {
+      "id": "launch",
+      "path": "assets/launch.mp4",
+      "kind": "video",
+      "source": ".runtime/runs/software-factory-launch-2026-11-13T04-53-26-722Z/output/draft.mp4",
+      "sha256": "c51ed721819491349b336f3ea2b962e59d079609b33b682e6b7f58865f0d2b2b"
+    },
+    {
+      "id": "social",
+      "path": "assets/social.mp4",
+      "kind": "video",
+      "source": ".runtime/runs/software-factory-social-2026-11-13T05-05-01-969Z/output/draft.mp4",
+      "sha256": "56f47b0ac82cbf705b05b88d192d2e698cfb8c767445e0e75bab8e5c0a118876"
+    },
+    {
+      "id": "review",
+      "path": "assets/review.png",
+      "kind": "image",
+      "source": ".runtime/demo-recording/review-final.png",
+      "sha256": "a6116e56e50b7d419756446cab53d1554363400d81065d38d92deefdfc384e50"
+    },
+    {
+      "id": "narration",
+      "path": "assets/narration.wav",
+      "kind": "audio",
+      "source": ".runtime/demo-media/narration-master.wav",
+      "sha256": "12ca6a173decc3b16cfb4c7643f24ba781cd60f7375c1ee9edf855a7f11da47a"
+    },
+    {
+      "id": "music",
+      "path": "assets/music.wav",
+      "kind": "audio",
+      "source": ".runtime/demo-media/music-master.wav",
+      "sha256": "08cc4969d2d6f0ca6f8e7f230cb0b95d821f0ae1ae56db936de006fa52eaeed5"
+    },
+    {
+      "id": "departure-mono",
+      "path": "assets/departure-mono.woff2",
+      "kind": "font",
+      "source": "assets/DepartureMono-Regular.woff2",
+      "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"
+    },
+    {
+      "id": "kujo-logo",
+      "path": "assets/kujo-logo.svg",
+      "kind": "image",
+      "source": "assets/kujo-logo.svg",
+      "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412"
+    }
+  ],
+  "sourceNotes": "# Showcase source\n\nThe floor and review shots are held captures of the actual running application. The two candidate shots play the actual example renders. This is an edited showcase, not an uninterrupted recording or a claim of production approval. No captions or scene labels are added.\n\nNarration uses the locally recovered Siren v4 master; its provider alignment was unavailable. The original failed provider receipt and successful local import remain under `.runtime/demo-media/`. Listening and exact-artifact review remain pending.\n\nThis revision uses the completed portrait candidate from `software-factory-social-2026-11-13T05-05-01-969Z`. The held review screenshot was copied from `review-final.png` before the revised-run screenshot existed; it shows the preceding social candidate in pending review. The held floor screenshot shows the landscape launch candidate in pending review. These are separate authentic run views, not a claim that every shot comes from one continuous session. The revised portrait video uses actual portrait browser evidence and the intact converter-card crop.\n\nThe earlier showcase remains intact under `.runtime/demo-first-cut/`, with its 197,310 ms build time and original hash in `archive-receipt.json`. This revision reuses the same narration and music; it makes no provider calls.\n\nExact held-review source: `software-factory-social-2026-11-13T04-56-02-034Z`, shown as REVIEW_INCOMPLETE with 3m21s elapsed and its candidate paused near second 6. The copied screenshot SHA-256 is `a6116e56e50b7d419756446cab53d1554363400d81065d38d92deefdfc384e50`. The revised source video in shot 3 is `software-factory-social-2026-11-13T05-05-01-969Z`; its recorded run time is 107,813 ms. The video and screenshot come from those distinct, documented runs.\n",
+  "attachmentUrl": "https://github.com/user-attachments/assets/5b113860-80ff-40de-98ca-92310d19f234"
+}
