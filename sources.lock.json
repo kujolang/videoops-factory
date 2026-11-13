@@ -1,0 +1,28 @@
+{
+  "schema": "kujo.videoops-factory.sources/v1",
+  "repositories": {
+    "kujo-agents": {
+      "url": "https://github.com/kujolang/kujo-agents.git",
+      "commit": "a7e9d0236d6e64b5db30273b32f4ad8c124f5173"
+    },
+    "kujo-workflows": {
+      "url": "https://github.com/kujolang/kujo-workflows.git",
+      "commit": "d766eae4fd9a131e51c34796d029fd3bc6974689"
+    }
+  },
+  "python": {
+    "distribution": "kujo-agents-videoops",
+    "version": "0.3.0",
+    "requirements": {
+      "pip": "24.3.1",
+      "setuptools": "80.9.0",
+      "wheel": "0.45.1",
+      "jsonschema": "4.26.0",
+      "attrs": "23.2.0",
+      "jsonschema-specifications": "2025.9.1",
+      "referencing": "0.37.0",
+      "rpds-py": "0.30.0",
+      "typing-extensions": "4.15.0"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "kujo.videoops.assets/v1",
+  "assets": [
+    {
+      "id": "departure-mono",
+      "file": "DepartureMono-Regular.woff2",
+      "kind": "font",
+      "source": "https://departuremono.com",
+      "rights": "SIL Open Font License; bundled license",
+      "sha256": "5b4fed1daa90708aa9c6ee1190abca9dc22164a1c1def0020386e46b61038cfb"
+    },
+    {
+      "id": "kujo-logo",
+      "file": "kujo-logo.svg",
+      "kind": "image",
+      "source": "https://kujolang.ai/assets/images/kujo-logomark.svg",
+      "rights": "Kujo first-party mark; identify Kujo, not a third-party endorsement. Copied from verified kujo-hermes demo asset.",
+      "sha256": "cecb66eae65116fadf29a93ce3adae28956b17cfaf1e8d9e0910c280935ef412"
+    },
+    {
+      "id": "factory-floor",
+      "file": "factory-floor.png",
+      "kind": "image",
+      "source": "software-factory live localhost:4380 viewer",
+      "rights": "First-party screenshot captured in this session",
+      "sha256": "b0e3c586a151bc177cacee3e5b817cd1368f0b77211b82c57f3921d09c40c341"
+    },
+    {
+      "id": "converter-app",
+      "file": "converter-app.png",
+      "kind": "image",
+      "source": "software-factory/.runtime/runs/factory-2026-11-13T03-52-04-284Z/artifacts/pack-check-1794542416813/browser-desktop.png",
+      "rights": "First-party verified application screenshot",
+      "sha256": "21f04c1316bb91ca6a73cb7a216539d8fb1e714c9473c48c206b4d9a3495f1ed"
+    }
+  ]
+}

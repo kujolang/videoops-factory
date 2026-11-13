@@ -1,0 +1,4 @@
+import {spawn} from 'node:child_process';
+export function command(bin,args,{cwd,env={},input='',timeout=600000,maxBytes=4000000}={}){
+ return new Promise((resolve,reject)=>{const child=spawn(bin,args,{cwd,env:{...process.env,...env},stdio:['pipe','pipe','pipe']});let out='',err='',failure;const timer=setTimeout(()=>{failure=Error('Command timed out');child.kill('SIGTERM');},timeout);const capture=(kind,b)=>{if(kind==='out')out+=b;else err+=b;if(out.length+err.length>maxBytes){failure=Error('Command exceeded output limit');child.kill('SIGTERM');}};child.stdout.on('data',b=>capture('out',b));child.stderr.on('data',b=>capture('err',b));child.on('error',e=>{clearTimeout(timer);reject(e)});child.on('close',code=>{clearTimeout(timer);if(failure)reject(failure);else if(code!==0)reject(Error(`${bin} failed (${code}): ${err.slice(-2500)}`));else resolve({out,err,code});});child.stdin.on('error',()=>{});child.stdin.end(input);});
+}
