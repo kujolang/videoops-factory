@@ -1,0 +1,148 @@
+{
+  "schema": "kujo.factory.benchmark/v1",
+  "requestStartedAt": "2026-11-13T04:42:09Z",
+  "timezone": "America/Detroit",
+  "phases": [
+    {
+      "id": "setup",
+      "startedAt": "2026-11-13T04:42:09Z",
+      "status": "ready-for-example",
+      "finishedAt": "2026-11-13T04:53:26.057Z",
+      "elapsedMs": 677057
+    },
+    {
+      "id": "examples",
+      "startedAt": "2026-11-13T04:53:26.057Z",
+      "status": "candidates-ready-review-incomplete",
+      "finishedAt": "2026-11-13T04:59:23.575Z",
+      "elapsedMs": 357518
+    },
+    {
+      "id": "demo",
+      "startedAt": "2026-11-13T04:59:01.711Z",
+      "status": "assembling",
+      "note": "Narration and creative preparation overlapped setup/examples; this interval measures final assembly/render only."
+    }
+  ],
+  "note": "Wall-clock observations include discovery, implementation, dependencies and verification; warm machine, not a clean-machine or comparative performance benchmark.",
+  "runs": [
+    {
+      "id": "software-factory-launch-2026-11-13T04-53-26-722Z",
+      "title": "Software Factory launch",
+      "status": "REVIEW_INCOMPLETE",
+      "startedAt": "2026-11-13T04:53:26.724Z",
+      "finishedAt": "2026-11-13T04:55:47.326Z",
+      "elapsedMs": 140603,
+      "stages": [
+        {
+          "role": "producer",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:53:27.036Z",
+          "finishedAt": "2026-11-13T04:53:39.370Z",
+          "elapsedMs": 12334
+        },
+        {
+          "role": "creative-director",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:53:39.373Z",
+          "finishedAt": "2026-11-13T04:53:51.396Z",
+          "elapsedMs": 12023
+        },
+        {
+          "role": "asset-scout",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:53:51.425Z",
+          "finishedAt": "2026-11-13T04:54:01.848Z",
+          "elapsedMs": 10423
+        },
+        {
+          "role": "media-generator",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:54:01.852Z",
+          "finishedAt": "2026-11-13T04:54:01.855Z",
+          "elapsedMs": 3
+        },
+        {
+          "role": "hyperframes-editor",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:54:01.858Z",
+          "finishedAt": "2026-11-13T04:55:32.995Z",
+          "elapsedMs": 91137
+        },
+        {
+          "role": "video-critic",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:55:34.468Z",
+          "finishedAt": "2026-11-13T04:55:47.321Z",
+          "elapsedMs": 12853
+        }
+      ],
+      "candidateSha256": "c51ed721819491349b336f3ea2b962e59d079609b33b682e6b7f58865f0d2b2b",
+      "durationSeconds": 12.0,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "id": "software-factory-social-2026-11-13T04-56-02-034Z",
+      "title": "Software Factory social cutdown",
+      "status": "REVIEW_INCOMPLETE",
+      "startedAt": "2026-11-13T04:56:02.043Z",
+      "finishedAt": "2026-11-13T04:59:23.575Z",
+      "elapsedMs": 201533,
+      "stages": [
+        {
+          "role": "producer",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:56:02.394Z",
+          "finishedAt": "2026-11-13T04:56:10.444Z",
+          "elapsedMs": 8050
+        },
+        {
+          "role": "creative-director",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:56:10.447Z",
+          "finishedAt": "2026-11-13T04:56:21.578Z",
+          "elapsedMs": 11131
+        },
+        {
+          "role": "asset-scout",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:56:21.602Z",
+          "finishedAt": "2026-11-13T04:56:34.355Z",
+          "elapsedMs": 12753
+        },
+        {
+          "role": "media-generator",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:56:34.360Z",
+          "finishedAt": "2026-11-13T04:56:34.365Z",
+          "elapsedMs": 5
+        },
+        {
+          "role": "hyperframes-editor",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:56:34.368Z",
+          "finishedAt": "2026-11-13T04:59:12.514Z",
+          "elapsedMs": 158146
+        },
+        {
+          "role": "video-critic",
+          "status": "completed",
+          "startedAt": "2026-11-13T04:59:13.882Z",
+          "finishedAt": "2026-11-13T04:59:23.569Z",
+          "elapsedMs": 9687
+        }
+      ],
+      "candidateSha256": "ef4b500924681c1250665f4b3a89c0018eb01476d2576c57f73b1c2d628309f8",
+      "durationSeconds": 12.0,
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "dependencyInstallMs": 53337,
+  "dependencyRepeatMs": 7110
+}

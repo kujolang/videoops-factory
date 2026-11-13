@@ -1,0 +1,58 @@
+{
+  "id": "software-factory-social-2026-11-13T04-56-02-034Z",
+  "title": "Software Factory social cutdown",
+  "status": "REVIEW_INCOMPLETE",
+  "startedAt": "2026-11-13T04:56:02.043Z",
+  "finishedAt": "2026-11-13T04:59:23.575Z",
+  "elapsedMs": 201533,
+  "stages": [
+    {
+      "role": "producer",
+      "status": "completed",
+      "startedAt": "2026-11-13T04:56:02.394Z",
+      "finishedAt": "2026-11-13T04:56:10.444Z",
+      "elapsedMs": 8050
+    },
+    {
+      "role": "creative-director",
+      "status": "completed",
+      "startedAt": "2026-11-13T04:56:10.447Z",
+      "finishedAt": "2026-11-13T04:56:21.578Z",
+      "elapsedMs": 11131
+    },
+    {
+      "role": "asset-scout",
+      "status": "completed",
+      "startedAt": "2026-11-13T04:56:21.602Z",
+      "finishedAt": "2026-11-13T04:56:34.355Z",
+      "elapsedMs": 12753
+    },
+    {
+      "role": "media-generator",
+      "status": "completed",
+      "startedAt": "2026-11-13T04:56:34.360Z",
+      "finishedAt": "2026-11-13T04:56:34.365Z",
+      "elapsedMs": 5
+    },
+    {
+      "role": "hyperframes-editor",
+      "status": "completed",
+      "startedAt": "2026-11-13T04:56:34.368Z",
+      "finishedAt": "2026-11-13T04:59:12.514Z",
+      "elapsedMs": 158146
+    },
+    {
+      "role": "video-critic",
+      "status": "completed",
+      "startedAt": "2026-11-13T04:59:13.882Z",
+      "finishedAt": "2026-11-13T04:59:23.569Z",
+      "elapsedMs": 9687
+    }
+  ],
+  "candidateSha256": "ef4b500924681c1250665f4b3a89c0018eb01476d2576c57f73b1c2d628309f8",
+  "durationSeconds": 12.0,
+  "dimensions": [
+    1080,
+    1920
+  ]
+}
