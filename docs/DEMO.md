@@ -27,3 +27,7 @@ node scripts/build-demo.mjs \
 The builder writes `.runtime/demo/`, including source hashes, an editable project, technical logs, audio measurements and the candidate. It refuses an existing output workspace so evidence is not overwritten. Preserve or move an old demo workspace before rebuilding.
 
 The held review snapshot shows the first portrait candidate and its recorded 3m 21s run, which remains pending. The portrait playback excerpt comes from the corrected candidate. The source manifest preserves both identities; neither image is a live elapsed-time claim.
+
+## Playback and downloads
+
+The README embeds a 1.9 MB, 720p preview encoded as H.264 Main level 3.1 with AAC audio and an MP4 faststart index. It preserves the original 40-second edit and narration. The 14.2 MB, 1080p original remains unchanged. Both files have public repository download links below the player, so downloading does not depend on the attachment player or its temporary signed delivery URL. The source manifest records both hashes. A successful browser playback check does not attest full listening or editorial approval.

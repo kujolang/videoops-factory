@@ -7,9 +7,11 @@
 
 Give your video team a brief. Follow the handoffs, inspect the renders, and see what still needs review.
 
-https://github.com/user-attachments/assets/5b113860-80ff-40de-98ca-92310d19f234
+https://github.com/user-attachments/assets/256f916f-4abb-4326-9352-67eb45df3cd4
 
-The narrated walkthrough is a technically checked review candidate. [Source and review notes](docs/DEMO.md).
+[Download the video for your phone — 720p, 1.9 MB](https://github.com/kujolang/videoops-factory/raw/refs/heads/main/docs/media/videoops-factory-demo-mobile.mp4) · [Download the original — 1080p, 14.2 MB](https://github.com/kujolang/videoops-factory/raw/refs/heads/main/docs/media/videoops-factory-demo.mp4)
+
+If your browser cannot play GitHub’s embedded preview, use either public download link above. The narrated walkthrough is a technically checked review candidate. [Source and review notes](docs/DEMO.md).
 
 VideoOps Factory turns a sourced campaign brief and registered assets into landscape or portrait video candidates. It runs the existing Kujo VideoOps role contracts, builds an editable HyperFrames project, records elapsed time, and shows the evidence in a local Factory Floor.
 
@@ -19,7 +21,7 @@ VideoOps Factory turns a sourced campaign brief and registered assets into lands
 
 Use macOS or Linux, Git, Node **26.12.1 or later 26.x**, Python **3.10+**, FFmpeg/ffprobe **6+** with libx264/AAC, and a Codex account. Rendering downloads a browser when needed. Minimal Ubuntu also needs `libatomic1` for Node 26. See the [clean installation test](docs/ONBOARDING-BENCHMARK.md) for the complete tested prerequisites and timing scope. Windows users need a compatible Linux environment; native Windows is unsupported.
 
-**Measured on fresh Ubuntu:** 4m 50s–5m 28s for dependencies and verified readiness; 3m 06s–3m 21s from cloning when prerequisites were already installed. Codex sign-in is additional. These are [two measured runs](docs/ONBOARDING-BENCHMARK.md), not a cross-platform guarantee.
+**Measured on fresh Ubuntu:** 4m 50s–5m 28s for dependencies and verified readiness; 3m 06s–3m 21s from cloning when prerequisites were already installed. Codex sign-in is additional. These are [two measured runs](docs/ONBOARDING-BENCHMARK.md) on a busy, resource-limited machine, not an idle-machine or cross-platform guarantee. Other applications and limited available memory were reported by the owner; CPU contention and swapping were not measured.
 
 ```sh
 git clone https://github.com/kujolang/videoops-factory.git

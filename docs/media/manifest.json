@@ -68,5 +68,20 @@
     }
   ],
   "sourceNotes": "# Showcase source\n\nThe floor and review shots are held captures of the actual running application. The two candidate shots play the actual example renders. This is an edited showcase, not an uninterrupted recording or a claim of production approval. No captions or scene labels are added.\n\nNarration uses the locally recovered Siren v4 master; its provider alignment was unavailable. The original failed provider receipt and successful local import remain under `.runtime/demo-media/`. Listening and exact-artifact review remain pending.\n\nThis revision uses the completed portrait candidate from `software-factory-social-2026-11-13T05-05-01-969Z`. The held review screenshot was copied from `review-final.png` before the revised-run screenshot existed; it shows the preceding social candidate in pending review. The held floor screenshot shows the landscape launch candidate in pending review. These are separate authentic run views, not a claim that every shot comes from one continuous session. The revised portrait video uses actual portrait browser evidence and the intact converter-card crop.\n\nThe earlier showcase remains intact under `.runtime/demo-first-cut/`, with its 197,310 ms build time and original hash in `archive-receipt.json`. This revision reuses the same narration and music; it makes no provider calls.\n\nExact held-review source: `software-factory-social-2026-11-13T04-56-02-034Z`, shown as REVIEW_INCOMPLETE with 3m21s elapsed and its candidate paused near second 6. The copied screenshot SHA-256 is `a6116e56e50b7d419756446cab53d1554363400d81065d38d92deefdfc384e50`. The revised source video in shot 3 is `software-factory-social-2026-11-13T05-05-01-969Z`; its recorded run time is 107,813 ms. The video and screenshot come from those distinct, documented runs.\n",
-  "attachmentUrl": "https://github.com/user-attachments/assets/5b113860-80ff-40de-98ca-92310d19f234"
+  "attachmentUrl": "https://github.com/user-attachments/assets/5b113860-80ff-40de-98ca-92310d19f234",
+  "readmePreview": {
+    "file": "videoops-factory-demo-mobile.mp4",
+    "attachmentUrl": "https://github.com/user-attachments/assets/256f916f-4abb-4326-9352-67eb45df3cd4",
+    "sha256": "203b65355d6b54f0645cf38f4804b1ed27ae00b6f97e75a2ac573512a1a01445",
+    "bytes": 1939534,
+    "width": 1280,
+    "height": 720,
+    "durationSeconds": 40,
+    "video": "H.264 Main level 3.1, yuv420p",
+    "audio": "AAC-LC 128 kbps",
+    "container": "MP4 with faststart",
+    "derivedFromSha256": "52590313ef9ac557c62fb4a9f9abf24aaa70ed5b8dbb69955ded716417f8a6f6",
+    "purpose": "Smaller README and phone preview; original retained unchanged",
+    "reviewStatus": "REVIEW_INCOMPLETE"
+  }
 }
