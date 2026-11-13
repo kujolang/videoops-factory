@@ -1,0 +1,18 @@
+
+  Hyperframes collects usage data to improve the tool, anonymous until you sign in.
+  File paths and composition content are never collected.
+  If you sign in to HeyGen, your account (email and username) is linked to your usage.
+
+  Disable anytime: hyperframes telemetry disable
+
+[SystemMemory] cgroup memory limit detected: 3072 MiB. It governs memory-adaptive render behaviour instead of host RAM.
+┌  hyperframes browser ensure
+Looking for an existing browser...
+Download complete
+
+   Source:  download
+   Path:    /root/.cache/hyperframes/chrome/chrome-headless-shell/linux-152.0.7977.30/chrome-headless-shell-linux64/chrome-headless-shell
+
+│
+└  Ready to render.
+

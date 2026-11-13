@@ -17,7 +17,9 @@ VideoOps Factory turns a sourced campaign brief and registered assets into lands
 
 ## Run the example
 
-Use macOS or Linux, Git, Node **26.12.1 or later 26.x**, Python **3.10+**, FFmpeg/ffprobe **6+** with libx264/AAC, and a Codex account. Rendering downloads a browser when needed. Windows users need a compatible Linux environment; native Windows is unsupported.
+Use macOS or Linux, Git, Node **26.12.1 or later 26.x**, Python **3.10+**, FFmpeg/ffprobe **6+** with libx264/AAC, and a Codex account. Rendering downloads a browser when needed. Minimal Ubuntu also needs `libatomic1` for Node 26. See the [clean installation test](docs/ONBOARDING-BENCHMARK.md) for the complete tested prerequisites and timing scope. Windows users need a compatible Linux environment; native Windows is unsupported.
+
+**Measured on fresh Ubuntu:** 4m 50s–5m 28s for dependencies and verified readiness; 3m 06s–3m 21s from cloning when prerequisites were already installed. Codex sign-in is additional. These are [two measured runs](docs/ONBOARDING-BENCHMARK.md), not a cross-platform guarantee.
 
 ```sh
 git clone https://github.com/kujolang/videoops-factory.git
@@ -67,7 +69,7 @@ Give your agent [the setup and brief guide](docs/AGENT-SETUP.md). Change the bri
 The separate demo uses the canonical media workflow for an authorized Siren narration take. That does not turn the silent example runner into an automatic speech service.
 
 - [Architecture and reuse](docs/REUSE.md)
-- [Measured setup and example runs](docs/BENCHMARK.md)
+- [Factory construction and example-run timings](docs/BENCHMARK.md)
 - [Creative direction](docs/CREATIVE-DIRECTION.md)
 - [Narrated walkthrough and rebuild instructions](docs/DEMO.md)
 - [Media provenance](docs/MEDIA-PROVENANCE.md)

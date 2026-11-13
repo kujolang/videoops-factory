@@ -1,0 +1,20 @@
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+total 16
+drwx------ 2 root root 4096 Nov 10 04:35 .
+drwxr-xr-x 1 root root 4096 Nov 13 05:35 ..
+-rw-r--r-- 1 root root 3106 Apr 22  2024 .bashrc
+-rw-r--r-- 1 root root  161 Apr 22  2024 .profile
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          19G  8.6G  9.8G  47% /

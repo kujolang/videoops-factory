@@ -1,0 +1,246 @@
+{
+  "schema": "kujo.videoops.onboarding-benchmark/v1",
+  "date": "2026-11-13",
+  "timezone": "America/Detroit",
+  "environment": {
+    "os": "Ubuntu 24.04.5",
+    "architecture": "x86_64",
+    "image": "ubuntu@sha256:2198e4c65076e9cb0b3d695219df667c0e3b0072da64ca3c2648aca17dcecaf5",
+    "containerCpuLimit": 4,
+    "containerMemoryGiB": 3,
+    "sharedMemoryGiB": 1,
+    "hostCpu": "Intel Core i7-9750H @ 2.60GHz",
+    "hostMemoryGiB": 16,
+    "hostOS": "macOS 26.6.2",
+    "vm": "Colima, 6 CPUs, 4 GiB RAM",
+    "localApplicationCaches": "empty in each container",
+    "hostCacheMounts": false
+  },
+  "scope": {
+    "includes": [
+      "system tools and Chromium libraries",
+      "Node 26.12.1 checksum download and installation",
+      "full public Git clone",
+      "npm ci",
+      "pinned source and Python setup",
+      "doctor",
+      "15 tests",
+      "browser download",
+      "actual 3-second render and full decode",
+      "viewer HTTP and API checks"
+    ],
+    "excludes": [
+      "OS and Docker provisioning",
+      "benchmark harness authoring/debugging",
+      "human instructions/permission prompts",
+      "account creation, fresh Codex sign-in and MFA",
+      "production mission execution or perceptual review"
+    ],
+    "independentPhysicalMachines": false,
+    "concurrentBenchmarkRuns": false
+  },
+  "trials": [
+    {
+      "id": "cold-1",
+      "startedAt": "2026-11-13T05:30:05.041389+00:00",
+      "totalSeconds": 289.7647863689999,
+      "cloneToReadySeconds": 201.327,
+      "sourceCommit": "13aa10d606227c9cc6f47a6cbf1b649fc36c1714",
+      "phases": [
+        {
+          "name": "system-packages",
+          "startedAtEpochMs": 1794547805182,
+          "finishedAtEpochMs": 1794547883188,
+          "elapsedMs": 78006,
+          "exitCode": 0
+        },
+        {
+          "name": "node",
+          "startedAtEpochMs": 1794547883191,
+          "finishedAtEpochMs": 1794547893225,
+          "elapsedMs": 10034,
+          "exitCode": 0
+        },
+        {
+          "name": "clone",
+          "startedAtEpochMs": 1794547893228,
+          "finishedAtEpochMs": 1794547918835,
+          "elapsedMs": 25607,
+          "exitCode": 0
+        },
+        {
+          "name": "npm-ci",
+          "startedAtEpochMs": 1794547918840,
+          "finishedAtEpochMs": 1794547947126,
+          "elapsedMs": 28286,
+          "exitCode": 0
+        },
+        {
+          "name": "setup",
+          "startedAtEpochMs": 1794547947130,
+          "finishedAtEpochMs": 1794547977023,
+          "elapsedMs": 29893,
+          "exitCode": 0
+        },
+        {
+          "name": "doctor",
+          "startedAtEpochMs": 1794547977030,
+          "finishedAtEpochMs": 1794547979299,
+          "elapsedMs": 2269,
+          "exitCode": 0
+        },
+        {
+          "name": "verify",
+          "startedAtEpochMs": 1794547979302,
+          "finishedAtEpochMs": 1794547992105,
+          "elapsedMs": 12803,
+          "exitCode": 0
+        },
+        {
+          "name": "browser",
+          "startedAtEpochMs": 1794547992108,
+          "finishedAtEpochMs": 1794548042891,
+          "elapsedMs": 50783,
+          "exitCode": 0
+        },
+        {
+          "name": "render-and-viewer",
+          "startedAtEpochMs": 1794548042898,
+          "finishedAtEpochMs": 1794548094555,
+          "elapsedMs": 51657,
+          "exitCode": 0
+        }
+      ],
+      "readiness": {
+        "renderSha256": "f01c03aee4f56324b625928732292ae6bbf5c728075c4289d9d6a05f0e658ddc",
+        "duration": "3.000000",
+        "viewer": true,
+        "technical": true,
+        "providerAuthenticationChecked": false,
+        "perceptualApproval": false
+      },
+      "tests": {
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "id": "cold-2",
+      "startedAt": "2026-11-13T05:35:17.402745+00:00",
+      "totalSeconds": 327.52391545799765,
+      "cloneToReadySeconds": 186.326,
+      "sourceCommit": "13aa10d606227c9cc6f47a6cbf1b649fc36c1714",
+      "phases": [
+        {
+          "name": "system-packages",
+          "startedAtEpochMs": 1794548117910,
+          "finishedAtEpochMs": 1794548248007,
+          "elapsedMs": 130097,
+          "exitCode": 0
+        },
+        {
+          "name": "node",
+          "startedAtEpochMs": 1794548248011,
+          "finishedAtEpochMs": 1794548258474,
+          "elapsedMs": 10463,
+          "exitCode": 0
+        },
+        {
+          "name": "clone",
+          "startedAtEpochMs": 1794548258478,
+          "finishedAtEpochMs": 1794548283722,
+          "elapsedMs": 25244,
+          "exitCode": 0
+        },
+        {
+          "name": "npm-ci",
+          "startedAtEpochMs": 1794548283728,
+          "finishedAtEpochMs": 1794548315631,
+          "elapsedMs": 31903,
+          "exitCode": 0
+        },
+        {
+          "name": "setup",
+          "startedAtEpochMs": 1794548315636,
+          "finishedAtEpochMs": 1794548355887,
+          "elapsedMs": 40251,
+          "exitCode": 0
+        },
+        {
+          "name": "doctor",
+          "startedAtEpochMs": 1794548355896,
+          "finishedAtEpochMs": 1794548360615,
+          "elapsedMs": 4719,
+          "exitCode": 0
+        },
+        {
+          "name": "verify",
+          "startedAtEpochMs": 1794548360625,
+          "finishedAtEpochMs": 1794548383789,
+          "elapsedMs": 23164,
+          "exitCode": 0
+        },
+        {
+          "name": "browser",
+          "startedAtEpochMs": 1794548383794,
+          "finishedAtEpochMs": 1794548418343,
+          "elapsedMs": 34549,
+          "exitCode": 0
+        },
+        {
+          "name": "render-and-viewer",
+          "startedAtEpochMs": 1794548418479,
+          "finishedAtEpochMs": 1794548444804,
+          "elapsedMs": 26325,
+          "exitCode": 0
+        }
+      ],
+      "readiness": {
+        "renderSha256": "f01c03aee4f56324b625928732292ae6bbf5c728075c4289d9d6a05f0e658ddc",
+        "duration": "3.000000",
+        "viewer": true,
+        "technical": true,
+        "providerAuthenticationChecked": false,
+        "perceptualApproval": false
+      },
+      "tests": {
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0
+      }
+    }
+  ],
+  "summary": {
+    "successfulTrials": 2,
+    "totalMinSeconds": 289.7647863689999,
+    "totalMaxSeconds": 327.52391545799765,
+    "totalMeanSeconds": 308.6443509134988,
+    "cloneToReadyMinSeconds": 186.326,
+    "cloneToReadyMaxSeconds": 201.327
+  },
+  "diagnostics": {
+    "firstAttempt": {
+      "trial": "trial-1",
+      "container": "videoops-onboarding-trial-1",
+      "startedAtEpoch": 1794547298.861248,
+      "finishedAtEpoch": 1794547538.274698,
+      "elapsedSeconds": 239.4134600162506,
+      "exitCode": 127,
+      "cpuLimit": 4,
+      "memoryGiB": 3,
+      "freshContainer": true,
+      "hostCacheMounts": false,
+      "authIncluded": false
+    },
+    "failure": "Node 26 required libatomic.so.1; corrected Ubuntu recipe installs libatomic1. Diagnostic harness browser --json flag also removed before clean repeats.",
+    "countedAsSuccessfulTrial": false
+  },
+  "providerQualification": {
+    "ok": true,
+    "elapsedSeconds": 10.622352939994016,
+    "freshSignInMeasured": false,
+    "method": "Existing authorized session copied privately into diagnostic Linux container; login status and actual tool-free structured provider call verified. No account-creation or MFA timing."
+  },
+  "initialOSImagePullSecondsExcluded": 24.99527621269226
+}

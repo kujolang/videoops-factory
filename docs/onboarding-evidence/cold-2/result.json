@@ -1,0 +1,13 @@
+{
+  "trial": "cold-2",
+  "image": "ubuntu@sha256:2198e4c65076e9cb0b3d695219df667c0e3b0072da64ca3c2648aca17dcecaf5",
+  "container": "videoops-onboarding-cold-2",
+  "startedAtEpoch": 1794548117.402745,
+  "elapsedSeconds": 327.52391545799765,
+  "exitCode": 0,
+  "cpuLimit": 4,
+  "memoryGiB": 3,
+  "hostCacheMounts": false,
+  "authIncluded": false,
+  "provisionSecondsExcluded": 1.7498294269971666
+}

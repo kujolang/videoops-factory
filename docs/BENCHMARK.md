@@ -1,5 +1,7 @@
 # Measured example
 
+For installing the finished repository, see the [clean installation benchmark](ONBOARDING-BENCHMARK.md). This page measures building the first factory and producing its example campaign.
+
 This is an observed local build, not a speed comparison or a clean-machine benchmark. Timing began on November 12, 2026 at 11:42:09 p.m. America/Detroit (November 13 at 04:42:09 UTC). The machine already had Node, Python, Git, FFmpeg, a Codex account and browser caches.
 
 The initial factory implementation, asset preparation, dependency setup and first checks took **11 minutes 17 seconds** before the first example started. Documentation, further tests and demo preparation continued while example jobs ran. That readiness interval does not claim the whole repository was finished in eleven minutes.

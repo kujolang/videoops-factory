@@ -1,0 +1,13 @@
+{
+  "trial": "trial-1",
+  "container": "videoops-onboarding-trial-1",
+  "startedAtEpoch": 1794547298.861248,
+  "finishedAtEpoch": 1794547538.274698,
+  "elapsedSeconds": 239.4134600162506,
+  "exitCode": 127,
+  "cpuLimit": 4,
+  "memoryGiB": 3,
+  "freshContainer": true,
+  "hostCacheMounts": false,
+  "authIncluded": false
+}

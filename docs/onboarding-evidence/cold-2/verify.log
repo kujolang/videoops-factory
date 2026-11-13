@@ -1,0 +1,33 @@
+
+> @kujolang/videoops-factory@0.1.0 verify
+> npm test && node scripts/check-docs.mjs
+
+
+> @kujolang/videoops-factory@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ brief rejects arbitrary dimensions, audio requests, traversal IDs and missing facts (7.440366ms)
+✔ plan preserves brief duration and registered assets (6.640104ms)
+✔ compiler renders mission text as text, not source (5.521409ms)
+✔ asset containment rejects traversal and symlinks (8.575387ms)
+✔ plan cannot replace requested CTA (1.222069ms)
+✔ canonical review keeps technical-only evidence incomplete and refuses promotion (2038.369334ms)
+✔ canonical perceptual PASS requires both capabilities and a capable reviewer (5305.674415ms)
+✔ canonical review refuses stale approval and promotion after candidate bytes change (4780.020909ms)
+✔ canonical review requires local operator authority and preserved evidence (6349.363875ms)
+✔ canonical review promotes matching fixture bytes after an authorized human PASS (2828.941745ms)
+▶ read-only viewer serves exact artifacts and confines run paths
+  ✔ GET exposes saved state/events and exact video bytes (266.056759ms)
+  ✔ byte ranges support seeking, suffixes and open ends (216.002014ms)
+  ✔ HEAD retains metadata with no payload; mutations are rejected (103.912853ms)
+  ✔ rejects traversal, encoded separators, nulls, symlinks and directories (65.845679ms)
+✔ read-only viewer serves exact artifacts and confines run paths (730.409857ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21727.58028
+10 Markdown files: local links valid

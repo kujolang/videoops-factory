@@ -1,0 +1,103 @@
+
+> @kujolang/videoops-factory@0.1.0 doctor
+> node scripts/doctor.mjs --json
+
+{
+  "schema": "kujo.videoops-factory.doctor/v1",
+  "ok": true,
+  "mode": "local-tools-only",
+  "providerAuthenticationChecked": false,
+  "providerCalls": 0,
+  "renderQualified": false,
+  "checks": [
+    {
+      "name": "platform",
+      "ok": true,
+      "detail": "linux/x64"
+    },
+    {
+      "name": "node",
+      "ok": true,
+      "detail": "v26.12.1"
+    },
+    {
+      "name": "git",
+      "ok": true,
+      "detail": "git version 2.43.0"
+    },
+    {
+      "name": "kujo",
+      "ok": true,
+      "detail": "kujo 1.9.0"
+    },
+    {
+      "name": "codex",
+      "ok": true,
+      "detail": "codex-cli 0.144.4"
+    },
+    {
+      "name": "hyperframes",
+      "ok": true,
+      "detail": "0.9.40"
+    },
+    {
+      "name": "ffmpeg",
+      "ok": true,
+      "detail": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+    },
+    {
+      "name": "ffprobe",
+      "ok": true,
+      "detail": "ffprobe version 6.1.1-3ubuntu5 Copyright (c) 2007-2023 the FFmpeg developers"
+    },
+    {
+      "name": "ffmpeg-encoders",
+      "ok": true,
+      "detail": [
+        "libx264",
+        "aac"
+      ]
+    },
+    {
+      "name": "source-lock",
+      "ok": true,
+      "detail": "1e55702f449c4c86805ea22707e95074c35c074311b861eeb6495606aece69da"
+    },
+    {
+      "name": "kujo-agents",
+      "ok": true,
+      "detail": "a7e9d0236d6e64b5db30273b32f4ad8c124f5173"
+    },
+    {
+      "name": "kujo-workflows",
+      "ok": true,
+      "detail": "d766eae4fd9a131e51c34796d029fd3bc6974689"
+    },
+    {
+      "name": "python-media-review",
+      "ok": true,
+      "detail": {
+        "python": "3.12.3",
+        "packages": {
+          "pip": "24.3.1",
+          "setuptools": "80.9.0",
+          "wheel": "0.45.1",
+          "jsonschema": "4.26.0",
+          "attrs": "23.2.0",
+          "jsonschema-specifications": "2025.9.1",
+          "referencing": "0.37.0",
+          "rpds-py": "0.30.0",
+          "typing-extensions": "4.15.0",
+          "kujo-agents-videoops": "0.3.0"
+        }
+      }
+    },
+    {
+      "name": "disk",
+      "ok": true,
+      "detail": {
+        "availableGiB": 8
+      }
+    }
+  ]
+}
