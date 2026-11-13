@@ -13,7 +13,7 @@ Both completed all 15 tests with no skips, a real render and decode, and viewer 
 
 Suggested public wording:
 
-> On our clean Ubuntu tests, setting up VideoOps Factory took about five minutes, including dependencies and readiness checks. Sign in to Codex, and you're ready to begin.
+> In our clean Ubuntu environments on a busy, resource-limited machine, setting up VideoOps Factory took about five minutes, including dependencies and readiness checks. Sign in to Codex, and you're ready to begin.
 
 For an audience that already has the prerequisites:
 
@@ -41,6 +41,8 @@ Account creation, fresh Codex sign-in, MFA and human review time are not fixed-d
 ## Environment and method
 
 The guest is Ubuntu 24.04.5 x86-64, limited to four CPUs and 3 GiB RAM, with 1 GiB shared memory. It runs in a local Docker engine within an existing six-CPU, 4 GiB Colima VM on macOS 26.6.2. The host is an Intel Core i7-9750H at 2.60 GHz with 16 GiB RAM. The pinned base image is `ubuntu@sha256:2198e4c65076e9cb0b3d695219df667c0e3b0072da64ca3c2648aca17dcecaf5`.
+
+These runs used a busy, resource-limited host: the owner reported other applications running and limited available memory. The test container had a 3 GiB RAM limit inside a 4 GiB VM on a 16 GiB Intel Mac. CPU contention, memory pressure and swapping were not recorded, so their effect on the timings is unknown. This was not an idle-machine or optimized performance benchmark; a faster result on another machine has not been measured.
 
 Each timed trial has a new container filesystem, no Node/Git/Python/FFmpeg installation, no credentials and empty application package/browser caches. The host kernel, VM, network and remote download services are shared; this is not a benchmark of a newly purchased physical computer. No cache volumes are mounted.
 

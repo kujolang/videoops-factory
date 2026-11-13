@@ -14,7 +14,16 @@
     "hostOS": "macOS 26.6.2",
     "vm": "Colima, 6 CPUs, 4 GiB RAM",
     "localApplicationCaches": "empty in each container",
-    "hostCacheMounts": false
+    "hostCacheMounts": false,
+    "hostLoadContext": {
+      "source": "Owner report after the benchmark",
+      "reportedBusy": true,
+      "reportedLimitedAvailableMemory": true,
+      "cpuContentionMeasured": false,
+      "memoryPressureMeasured": false,
+      "swappingMeasured": false,
+      "quantifiedSlowdown": null
+    }
   },
   "scope": {
     "includes": [
