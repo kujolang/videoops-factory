@@ -2,7 +2,7 @@
   "schema": "kujo.videoops.brief/v1",
   "id": "software-factory-social",
   "title": "Software Factory social cutdown",
-  "request": "Use four scenes covering the complete 12-second, 360-frame timeline: 0\u20132 seconds hook, 2\u20136 seconds real Factory Floor proof, 6\u20139 seconds real converter app proof, 9\u201312 seconds Kujo bumper. Hook copy: \"Your idea. A tested app.\" Frame this as the supported local software workflow, not a guarantee for any idea. Use the supplied factory-floor and converter-app screenshots as authentic product evidence. Keep real UI details intact; never draw fake controls, statuses, or results. A modest crop or punch-in may guide attention, but preserve enough context to identify the app. The Factory Floor beat may use the short product claim \"Reviewed contracts. Frozen tests.\" as its main headline; do not add captions, lower thirds, scene labels, or running header labels. The converter beat should let the real app speak for itself. End with the official kujo-logo K mark, Kujo in departure-mono, the CTA, and kujolang.ai. Use a monochrome palette, restrained movement, clean cuts, and generous reading time. Silence is intentional: no narration, music, or sound effects. Do not claim elapsed time, universal app support, unattended publication, or approval of unreviewed work. All claims must map to the supplied facts. Recompose for a 9:16 portrait frame; do not shrink the landscape layout. Use focused screenshot crops with enough surrounding UI to preserve their meaning. Keep essential copy away from the extreme top and bottom; no platform-specific safe-area guarantees.",
+  "request": "Use four scenes covering the complete 12-second, 360-frame timeline: 0\u20132 seconds hook, 2\u20136 seconds real Factory Floor proof, 6\u20139 seconds real converter app proof, 9\u201312 seconds Kujo bumper. Hook copy: \"Your idea. A tested app.\" Frame this as the supported local software workflow, not a guarantee for any idea. Use the supplied factory-floor-portrait and converter-app-portrait screenshots as authentic product evidence. Keep real UI details intact; never draw fake controls, statuses, or results. A modest crop or punch-in may guide attention, but preserve enough context to identify the app. The Factory Floor beat may use the short product claim \"Reviewed contracts. Frozen tests.\" as its main headline; do not add captions, lower thirds, scene labels, or running header labels. The converter beat should let the real app speak for itself. End with the official kujo-logo K mark, Kujo in departure-mono, the CTA, and kujolang.ai. Use a monochrome palette, restrained movement, clean cuts, and generous reading time. Silence is intentional: no narration, music, or sound effects. Do not claim elapsed time, universal app support, unattended publication, or approval of unreviewed work. All claims must map to the supplied facts. Recompose for a 9:16 portrait frame; do not shrink the landscape layout. Use focused screenshot crops with enough surrounding UI to preserve their meaning. Keep essential copy away from the extreme top and bottom; no platform-specific safe-area guarantees.",
   "duration": 12,
   "width": 1080,
   "height": 1920,
@@ -36,8 +36,8 @@
     }
   ],
   "assetIds": [
-    "factory-floor",
-    "converter-app",
+    "factory-floor-portrait",
+    "converter-app-portrait",
     "kujo-logo",
     "departure-mono"
   ],

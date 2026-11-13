@@ -1,6 +1,6 @@
 # Demo media
 
-The demo uses original narration, the Kujo logo, Departure Mono, and recordings of the running factory. Source screenshots and recordings must show the actual application.
+The demo uses original narration, the Kujo logo, Departure Mono, and captures of the running factory. Source screenshots and recordings must show the actual application.
 
 ## Narration
 

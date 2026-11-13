@@ -11,9 +11,9 @@ Run measurements below include the actual model proposals, trusted rendering, te
 | Example | Time to review candidate | Output |
 | --- | --- | --- |
 | Landscape launch | 2m 20.603s | 1920×1080, 12s |
-| Portrait cutdown | 3m 21.533s | 1080×1920, 12s |
+| Portrait first attempt | 3m 21.533s | 1080×1920, 12s; later superseded |
 
-Both passed layout, render, dimensions, frame-rate, full decode and silent-audio checks. Both retain REVIEW_INCOMPLETE for playback review. Renderer load and other work overlapped this single observation; these figures do not predict another machine’s speed.
+Both first attempts passed layout, render, dimensions, frame-rate, full decode and silent-audio checks. Frame inspection then found that wide screenshots were too small in the portrait clip. The correction registers a real portrait browser capture and a lossless crop containing the full converter card, then reruns the same controller. The first attempt and its timing remain evidence; it is not silently replaced by a faster or cleaner result. Both retain REVIEW_INCOMPLETE for playback review. Renderer load and other work overlapped this single observation; these figures do not predict another machine’s speed.
 
 The source of truth is [benchmark.json](benchmark.json). Candidate hashes and per-stage durations are retained there. Editable projects and detailed provider/renderer logs stay in each ignored local run workspace. Public example files are review candidates, not approved releases.
 

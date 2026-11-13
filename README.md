@@ -54,7 +54,7 @@ The model calls are sequential, tool-free proposals. They cannot edit the render
 
 A successful run ends at **REVIEW_INCOMPLETE**, with `output/draft.mp4`, metadata, frames, checks, role proposals and handoffs. Rendering and metadata checks cannot prove that a video looks or sounds right. A capable reviewer must review the exact candidate before promotion. See [Review and release](docs/REVIEW.md).
 
-Edit the scene project in `production/hyperframes/` with HyperFrames Studio or its desktop app. Edits produce a new candidate and require a new review. Never label a changed file approved using the old file's decision.
+The render job closes its temporary preview. Reopen it with `npx hyperframes preview /absolute/run/production/hyperframes`, or edit the scene project in `production/hyperframes/` with HyperFrames Studio or its desktop app. Edits produce a new candidate and require a new review. Never label a changed file approved using the old file's decision.
 
 ## Make it yours
 
@@ -65,6 +65,7 @@ The separate demo uses the canonical media workflow for an authorized Siren narr
 - [Architecture and reuse](docs/REUSE.md)
 - [Measured setup and example runs](docs/BENCHMARK.md)
 - [Creative direction](docs/CREATIVE-DIRECTION.md)
+- [Narrated walkthrough and rebuild instructions](docs/DEMO.md)
 - [Media provenance](docs/MEDIA-PROVENANCE.md)
 - [Trust boundary](SECURITY.md)
 

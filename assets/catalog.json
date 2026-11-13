@@ -32,6 +32,24 @@
       "source": "software-factory/.runtime/runs/factory-2026-11-13T03-52-04-284Z/artifacts/pack-check-1794542416813/browser-desktop.png",
       "rights": "First-party verified application screenshot",
       "sha256": "21f04c1316bb91ca6a73cb7a216539d8fb1e714c9473c48c206b4d9a3495f1ed"
+    },
+    {
+      "id": "factory-floor-portrait",
+      "file": "factory-floor-portrait.png",
+      "kind": "image",
+      "source": "http://127.0.0.1:4380",
+      "transform": "Actual browser capture at1080x1920; no simulated UI",
+      "rights": "First-party product evidence",
+      "sha256": "ee4d832c7a2cbb4e670c9e6c05712a70cdcaf2486cf6822804ddf079e82900e1"
+    },
+    {
+      "id": "converter-app-portrait",
+      "file": "converter-app-portrait.png",
+      "kind": "image",
+      "source": "assets/converter-app.png",
+      "transform": "Lossless crop x340,y0,width600,height900; entire converter card/input/result retained",
+      "rights": "First-party product evidence",
+      "sha256": "d247d25727e63884432944eeb01c19c226e3cd7429223c6c2433930652eeb100"
     }
   ]
 }

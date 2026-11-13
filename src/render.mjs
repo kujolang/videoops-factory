@@ -69,6 +69,7 @@ export async function renderProject({workspace,plan,assets,onProgress = () => {}
   checks.lint = JSON.parse((await run(cli,['lint',composition,'--json'],'lint')).stdout);
   checks.check = JSON.parse((await run(cli,['check',composition,'--json'],'check')).stdout);
   if (!checks.lint.ok || !checks.check.ok || checks.check.browserSkipped) throw new Error('HyperFrames technical checks did not pass');
+  try {
   const preview=await run(cli,['preview',composition,'--background','--no-open','--json'],'preview');
   checks.preview = preview.stdout;
   const url=preview.stdout.match(/https?:\/\/(?:localhost|127\.0\.0\.1):\d+/)?.[0];
@@ -95,4 +96,8 @@ export async function renderProject({workspace,plan,assets,onProgress = () => {}
   }
   await writeFile(path.join(evidence,'technical-checks.json'),JSON.stringify(checks,null,2)+'\n');
   return {video,metadata,frames,composition,checks};
+  } finally {
+    // Stop only this project's preview; other editing sessions remain open.
+    await run(cli,['preview',composition,'--stop','--json'],'preview-stop',{allowFailure:true}).catch(()=>{});
+  }
 }
