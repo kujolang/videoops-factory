@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-13",
+  "reportedFailure": "User reported failure in an unspecified desktop browser",
+  "originalFailureReproduced": false,
+  "before": [
+    {
+      "name": "chrome-desktop",
+      "first": {
+        "duration": 40,
+        "time": 1.188922,
+        "width": 1920,
+        "height": 1080,
+        "ready": 4,
+        "controls": true,
+        "error": null,
+        "sourceHost": "private-user-images.githubusercontent.com"
+      },
+      "seek": 30.448691,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "webkit-desktop",
+      "first": {
+        "duration": 40,
+        "time": 1.9494434300007732,
+        "width": 1920,
+        "height": 1080,
+        "ready": 4,
+        "controls": true,
+        "error": null,
+        "sourceHost": "private-user-images.githubusercontent.com"
+      },
+      "seek": 30.92194317499839,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "webkit-iphone",
+      "first": {
+        "duration": 40,
+        "time": 1.9980558849940533,
+        "width": 1920,
+        "height": 1080,
+        "ready": 4,
+        "controls": true,
+        "error": null,
+        "sourceHost": "private-user-images.githubusercontent.com"
+      },
+      "seek": 30.83994884700024,
+      "errors": [],
+      "ok": true
+    }
+  ],
+  "after": [
+    {
+      "name": "chrome-desktop",
+      "first": {
+        "duration": 40,
+        "time": 1.239689,
+        "width": 1280,
+        "height": 720,
+        "ready": 4,
+        "controls": true,
+        "error": null,
+        "sourceHost": "private-user-images.githubusercontent.com"
+      },
+      "seek": 30.894395,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "webkit-desktop",
+      "first": {
+        "duration": 40,
+        "time": 1.9887560880003607,
+        "width": 1280,
+        "height": 720,
+        "ready": 4,
+        "controls": true,
+        "error": null,
+        "sourceHost": "private-user-images.githubusercontent.com"
+      },
+      "seek": 30.90057484799826,
+      "errors": [],
+      "ok": true
+    },
+    {
+      "name": "webkit-iphone",
+      "first": {
+        "duration": 40,
+        "time": 1.981354912996793,
+        "width": 1280,
+        "height": 720,
+        "ready": 4,
+        "controls": true,
+        "error": null,
+        "sourceHost": "private-user-images.githubusercontent.com"
+      },
+      "seek": 30.92949940499665,
+      "errors": [],
+      "ok": true
+    }
+  ],
+  "method": "Anonymous Playwright contexts; muted playback and seek to 30 seconds. WebKit iPhone case is emulation, not physical iPhone testing.",
+  "download": {
+    "url": "https://github.com/kujolang/videoops-factory/raw/refs/heads/main/docs/media/videoops-factory-demo-mobile.mp4",
+    "sha256": "203b65355d6b54f0645cf38f4804b1ed27ae00b6f97e75a2ac573512a1a01445",
+    "matchesLocalFile": true,
+    "rangeStatus": 206,
+    "rangeBytes": 1024
+  },
+  "originalRetainedUnchanged": true,
+  "perceptualApproval": false
+}

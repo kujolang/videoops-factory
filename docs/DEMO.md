@@ -31,3 +31,5 @@ The held review snapshot shows the first portrait candidate and its recorded 3m 
 ## Playback and downloads
 
 The README embeds a 1.9 MB, 720p preview encoded as H.264 Main level 3.1 with AAC audio and an MP4 faststart index. It preserves the original 40-second edit and narration. The 14.2 MB, 1080p original remains unchanged. Both files have public repository download links below the player, so downloading does not depend on the attachment player or its temporary signed delivery URL. The source manifest records both hashes. A successful browser playback check does not attest full listening or editorial approval.
+
+[Playback checks from November 13, 2026](media/playback-verification.json) passed in Chrome desktop, WebKit desktop and WebKit iPhone emulation, including seeking to 30 seconds. The original reported desktop failure was not reproduced; the exact failing browser/configuration is unknown. Emulation is not a physical-phone test. Public download bytes matched the local file, and HTTP byte-range requests returned 206. These checks establish technical playback in those contexts, not full listening approval.
